@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="La1ive TestNG Sample Suite" verbose="10" parallel="methods">
+
+    <test name="Sample Test">
+        <groups>
+            <run>
+                <include name="unit"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.la1ive.learn.SampleTest"/>
+        </classes>
+    </test>
+</suite>
